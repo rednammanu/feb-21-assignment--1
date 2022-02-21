@@ -1,0 +1,7 @@
+asd = int(input("enter the number"))
+ascii_value = 90
+for i in range(1, asd+1):
+    for j in range(1, asd+1):
+        print(chr(ascii_value), end = " ")
+    print("\n")
+    
